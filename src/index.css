@@ -1,20 +1,3 @@
-body {
-  margin: 0;
-  font-family: 'Noto Serif Bengali', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
-div {
-  height: 400px;
-  width: 400px;
-  background-color: aqua;
-  text-align: center;
-  margin-top: 100px;
-}
+

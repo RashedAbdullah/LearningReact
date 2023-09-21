@@ -1,0 +1,31 @@
+/* Footer */
+
+.footer {
+    /* height: 200px; */
+    background-color: #001C30;
+    color: white;
+  }
+  
+  .footerOne {
+    height: 50px;
+    background-color: #001C30;
+    border-bottom: 0.5px solid white;
+  }
+  
+  .footer .allUL {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    
+  }
+  
+  .footer .allUL li {
+    list-style: none;
+  }
+  
+  .footer .allUL li a {
+    color: white;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+  }

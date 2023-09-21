@@ -1,10 +1,18 @@
-import React, { Component } from 'react'
+// import React from 'react'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HeroArea from './components/HeroArea';
+import './components/Header.css';
+import './components/Footer.css';
+import './components/HeroArea.css'
 
 const LearningReact = () => {
+
   return (
-    <div>
-      <h2>This is React</h2>
-      <p>LearningReact</p>
+    <div className=''>
+      <Header />
+      <HeroArea />
+      <Footer/>
     </div>
   )
 }

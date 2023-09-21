@@ -1,0 +1,91 @@
+/* HeroBox */
+
+.HeroBox {
+    /* height: 600px; */
+    background-color: rgb(222, 255, 255);
+    color: #2ca4ab;
+    
+  }
+  
+  .HeroBox .Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .MainHero {
+    /* background-color: rgb(222, 255, 255); */
+    
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .allTexts {
+    margin-right: 200px;
+    /* margin-left: 200px; */
+  }
+  
+  .texts {
+    margin-left: 200px;
+  }
+  
+  .skills {
+    margin-left: 170px;
+  }
+  
+  .ulList {
+    display: flex;
+  }
+  
+  .ulList li {
+    margin-inline: 20px;
+    font-size: 20px;
+  }
+  
+  
+  .texts button {
+    height: 38px;
+    width: 90px;
+    margin-inline: 10px;
+  }
+  
+  .textLight {
+    color: white;
+  }
+  
+  
+  .AsideHero {
+    width: 20%;
+    height: 400px;
+    background-color: rgb(222, 255, 255);
+    color: #2ca4ab;
+    border-left: 2px solid #14adb5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .AsideHero .asideIcons {
+    /* height: 250px; */
+    width: 120px;
+  }
+  
+  .singleAsideIcon {
+    height: 35px;
+    border-top: 1px solid #14adb5;
+    /* border-bottom: 1px solid #14adb5; */
+    font-size: 20px;
+  }
+  
+  .singleAsideIcon a {
+    text-decoration: none;
+    color: #14adb5;
+  }
+  
+  .singleAsideIcon a p i {
+    margin-right: 10px;
+    margin-left: 10px;
+  }

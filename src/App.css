@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@500&display=swap');
 
+
 *{
   font-family: 'Noto Serif Bengali', serif;
 }
 
-h2 {
+body {
+  margin: 0;
   font-family: 'Noto Serif Bengali', serif;
+  background-color: #64CCC5;
+}
+
+.HeroArea {
+  height: 400px;
+  width: 400px;
+  background-color: aqua;
+  text-align: center;
+  margin-top: 100px;
 }
