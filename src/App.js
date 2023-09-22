@@ -12,7 +12,7 @@ const LearningReact = () => {
     <div className=''>
       <Header />
       <HeroArea />
-      <Footer/>
+      <Footer name="Rashed Abdullah"/>
     </div>
   )
 }

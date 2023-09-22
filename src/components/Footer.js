@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className='footer'>
         <div className='footerOne'>
             <h3 className='text-center pt-2'>About me:</h3>
+            <h2>{props.name}</h2>
+
         </div>
         <div className='allUL'>
             <ul className='pt-3'>
