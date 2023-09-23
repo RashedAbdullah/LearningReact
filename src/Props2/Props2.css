@@ -1,0 +1,13 @@
+.myFamily {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.FamilyDataBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Noto+Kufi+Arabic:wght@700&display=swap');
+
+.SurahNamesMainDiv a{
+    transition: 0.3s;
+}
+
+.SurahNamesMainDiv a:hover {
+    background-color: rgb(0, 21, 21);
+}
+
+.surahNameOutsiteDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.SurahNamesSecondDiv {
+    height: 100px;
+    width: 350px;
+    background-color: rgb(0, 63, 63);
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.surahNumber {
+    margin-left: 20px;
+}
+
+.insideofSurahNumber {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideofSurahNumber p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.surahName {
+    width: 60%;
+}
+
+.surahName p {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.HeadlineOfSurah h2{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    text-align: center;
+}

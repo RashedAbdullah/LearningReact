@@ -1,9 +1,11 @@
 /* HeroBox */
 
 .HeroBox {
-    /* height: 600px; */
-    background-color: rgb(222, 255, 255);
-    color: #2ca4ab;
+    height: 800px;
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 1600px 700px;
+    color: white;
     
   }
   
@@ -17,7 +19,7 @@
     /* background-color: rgb(222, 255, 255); */
     
     width: 80%;
-    height: 700px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,9 +62,9 @@
   .AsideHero {
     width: 20%;
     height: 400px;
-    background-color: rgb(222, 255, 255);
-    color: #2ca4ab;
-    border-left: 2px solid #14adb5;
+    background: transparent;
+    color: white;
+    border-left: 2px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,14 +77,14 @@
   
   .singleAsideIcon {
     height: 35px;
-    border-top: 1px solid #14adb5;
+    border-top: 1px solid white;
     /* border-bottom: 1px solid #14adb5; */
     font-size: 20px;
   }
   
   .singleAsideIcon a {
     text-decoration: none;
-    color: #14adb5;
+    color: white;
   }
   
   .singleAsideIcon a p i {

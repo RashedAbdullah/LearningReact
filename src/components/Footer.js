@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css';
 
 const Footer = (props) => {
   return (
     <div className='footer'>
         <div className='footerOne'>
-            <h3 className='text-center pt-2'>About me:</h3>
-            <h2>{props.name}</h2>
+            <h3 className='text-center pt-2'>More...</h3>
 
         </div>
         <div className='allUL'>

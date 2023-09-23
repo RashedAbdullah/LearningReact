@@ -1,0 +1,19 @@
+.propFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+.mainProps {
+    margin: 50px;
+}
+
+.singleProp {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './HeroArea.css';
 
 const HeroArea = () => {
   return (
@@ -38,11 +39,15 @@ const HeroArea = () => {
                     </div>
 
                     <div className='singleAsideIcon'>
-                        <a href=""><p className='mt-1'><i class="fa-solid fa-user"></i>About</p></a>
+                        <a href=""><p className='mt-1'><i class="fa-solid fa-envelope"></i>Contact</p></a>
                     </div>
 
                     <div className='singleAsideIcon'>
-                        <a href=""><p className='mt-1'><i class="fa-solid fa-envelope"></i>Contact</p></a>
+                        <a href=""><p className='mt-1'><i class="fa-solid fa-list-check"></i>Projects</p></a>
+                    </div>
+
+                    <div className='singleAsideIcon'>
+                        <a href=""><p className='mt-1'><i class="fa-solid fa-user"></i>About</p></a>
                     </div>
 
                     <div className='singleAsideIcon'>

@@ -1,0 +1,50 @@
+[
+    {"Name": "Labib irfan",
+      "ClassNo": "Dawrah",
+      "RollNo": "01"
+    },
+    {"Name": "Rashed Abdullah",
+      "ClassNo": "Dawrah",
+      "RollNo": "02"
+    },
+    {"Name": "Khalid Mahmud",
+      "ClassNo": "Dawrah",
+      "RollNo": "03"
+    },
+    {"Name": "Abrarul haque",
+      "ClassNo": "Dawrah",
+      "RollNo": "04"
+    },
+    {"Name": "Umama sultana",
+      "ClassNo": "Dawrah",
+      "RollNo": "05"
+    },
+    {"Name": "ismat maymuna",
+      "ClassNo": "Dawrah",
+      "RollNo": "06"
+    },
+    {"Name": "Rakib Hasan",
+      "ClassNo": "Dawrah",
+      "RollNo": "07"
+    },
+    {"Name": "Musharraf Hossain",
+      "ClassNo": "Dawrah",
+      "RollNo": "08"
+    },
+    {"Name": "Zakaria Hibban",
+      "ClassNo": "Dawrah",
+      "RollNo": "09"
+    },
+    {"Name": "Ridwanul haque",
+      "ClassNo": "Dawrah",
+      "RollNo": "10"
+    },
+    {"Name": "Umme salma",
+      "ClassNo": "Dawrah",
+      "RollNo": "11"
+    },
+    {"Name": "Humayra",
+      "ClassNo": "Dawrah",
+      "RollNo": "12"
+    }
+]

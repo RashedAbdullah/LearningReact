@@ -1,0 +1,41 @@
+[
+    {"Member": "Mawlana Abdullah",
+     "Relation": "Father",
+     "Dob": "1962"},
+
+     {"Member": "Rabea Akter",
+     "Relation": "Mother",
+     "Dob": "1970"},
+
+     {"Member": "Abdur Rahman Noman",
+     "Relation": "Brother",
+     "Dob": "1988"},
+
+     {"Member": "Abdul Halim irfan",
+     "Relation": "Brother",
+     "Dob": "1990"},
+
+     {"Member": "Abdul qayum Faruque",
+     "Relation": "Brother",
+     "Dob": "1994"},
+
+     {"Member": "Nafisa Akter",
+     "Relation": "Sister",
+     "Dob": "2001"},
+
+     {"Member": "Jannatul ferdaous",
+     "Relation": "Sister in low",
+     "Dob": "2001"},
+
+     {"Member": "Bibi mariam Maria",
+     "Relation": "Sister In low",
+     "Dob": "2001"},
+
+     {"Member": "Labib irfan",
+     "Relation": "Nephew",
+     "Dob": "2020"},
+
+     {"Member": "ismat Maymuna",
+     "Relation": "Nephew",
+     "Dob": "2023"}
+]

@@ -7,9 +7,12 @@
   }
   
   .footerOne {
-    height: 50px;
+    height: 100px;
     background-color: #001C30;
     border-bottom: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer .allUL {
