@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@500&display=swap');
 
+@font-face {
+  font-family: SurahNameFont;
+  src: url('./fonts/QuranSurah2-7Bov4.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: KFGQPC;
+  src: url('./fonts/KFGQPC.otf');
+}
 
 *{
   font-family: 'Noto Serif Bengali', serif;

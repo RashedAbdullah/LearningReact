@@ -14,7 +14,13 @@ import FamilyJSON from './moreData/FamiyJSON.json';
 
 // QuranDatas:
 import SurahNames from './quranJSX/surahNames/index';
-import SurahNameJSON from './quranJSON/surahNames/surahNameArUrEn.json'
+import SurahNameJSON from './quranJSON/surahNames/surahNameArUrEn.json';
+
+// surah Data:
+
+// surah1:
+import Surah1 from './quranJSX/allAyats/surah1';
+import Allsurah from './quranJSON/Ayats/quran.json';
 
 const LearningReact = () => {
 
@@ -50,7 +56,7 @@ const LearningReact = () => {
             }
             return res;
         };
-        const converted = convert(surahNumbers)
+        const converted = convert(surahNumbers);
         return<SurahNames
       id={converted}
       name={value.name}
@@ -58,6 +64,36 @@ const LearningReact = () => {
       </div>
       </div>
 
+        {/* surah fatiha */}
+        <div className='surah1OutsiteDiv'>
+
+          <div className='surahNameAndBismillah'>
+          <h2 className='text-center'>سورة الفاتحة</h2> <hr />
+          <h2 className='text-center'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</h2>
+          </div>
+          {Allsurah.Surah1.map((value)=>{
+
+          // convert to number:
+          let surahNumbers = parseInt(value.verse, 10);
+          // English to Arabic:
+          const numbers = `۰۱۲۳۴۵۶۷۸۹`;
+          const convert = (surahNumbers) => {
+          let res = "";
+          const str = surahNumbers.toString();
+          for (let c of str) {
+            res += numbers.charAt(c);
+            }
+              return res;
+            };
+          const converted = convert(surahNumbers);
+
+
+          return <Surah1
+          verse={converted}
+          text={value.text}
+          />})}
+        </div>
+      
       {/* Props items */}
       <div>
         <h2 className='text-center text-light mt-5'>all of JSON's file:</h2>

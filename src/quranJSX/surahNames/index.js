@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import '../../fonts/QuranSurah2-7Bov4.ttf';
 
 const SurahNames = (value) => {
   return (

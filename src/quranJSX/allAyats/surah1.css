@@ -1,0 +1,63 @@
+.surah1OutsiteDiv {
+    max-width: 85%;
+    margin-left: 7%;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+.surahNameAndBismillah {
+    height: 100px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.surahNameAndBismillah h2 {
+    font-family: KFGQPC;
+    font-size: 33px;
+    margin: 0;
+}
+
+.surah1MainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: KFGQPC;
+}
+
+.surah1SecondDiv {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 75%;
+    background-color: rgb(0, 71, 71);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 100px;
+    margin: 2px;
+}
+
+.surah1SecondDiv p {
+    margin-top: 10px;
+    font-family: KFGQPC;
+    font-size: 23px;
+}
+
+.ayatNo {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ayatNo p {
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(0, 62, 62);
+    font-family: 'Amiri', serif;
+}
