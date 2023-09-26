@@ -1,70 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
 
-.SurahNamesMainDiv a{
+
+.SurahNamesMainDivOutside {
+    background-color: #64CCC5;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.HeadlineOfSurah {
+    border: 1px solid #176B87;
+    border-radius: 10px;
+    width: 100%;
+    margin: 50px;
+    background-color: rgb(0, 48, 48);
+}
+
+.HeadlineOfSurah h2 {
+    font-family: KFGQPC;
+    font-size: 29px;
+    font-size: 40px;
+}
+
+.LinkOfSurahNameAndNumber {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100px;
+    width: 250px;
+    background-color: rgb(0, 36, 36);
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
     transition: 0.3s;
 }
 
-.SurahNamesMainDiv a:hover {
-    background-color: rgb(0, 67, 116);
-    color: #F0B6B8;;
+
+.LinkOfSurahNameAndNumber:hover {
+    background-color: rgb(0, 47, 81);
+    color: #fff5f5;;
     transform: translateY(-5px);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.surahNameOutsiteDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.SurahNamesSecondDiv {
-    height: 100px;
-    width: 350px;
-    background-color: rgb(0, 63, 63);
-    color: white;
-    padding: 5px;
-    margin: 20px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.surahNumber {
-    margin-left: 20px;
-}
-
 .insideofSurahNumber {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    background-color: aqua;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 20px;
+    color: rgb(0, 23, 23);
+    font-weight: bold;
 }
 
 .insideofSurahNumber p {
-    margin-top: 20px;
-    font-size: 25px;
-    font-family: 'Amiri', serif;
-}
-
-.surahName {
-    width: 60%;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .surahName p {
-    font-size: 25px;
-    margin-top: 20px;
     font-family: KFGQPC;
-}
-
-a {
-    text-decoration: none;
-}
-
-.HeadlineOfSurah h2{
-    font-family: KFGQPC;
-    text-align: center;
+    margin-right: 10px;
+    margin-top: 15px;
 }

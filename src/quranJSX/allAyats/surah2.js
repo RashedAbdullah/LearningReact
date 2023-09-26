@@ -2,7 +2,7 @@ import React from 'react';
 import './surah1.css';
 import Allsurah from '../../quranJSON/Ayats/quran.json';
 
-const Surah1 = (value) => {
+const Surah2 = (value) => {
   return (
 
     //surah fatiha
@@ -13,7 +13,7 @@ const Surah1 = (value) => {
             <h2 className='text-center'>بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</h2>
           </div>
           
-          {Allsurah.Surah1.map((value)=> {
+          {Allsurah.Surah2.map((value)=> {
 
           // convert to number:
           let surahNumbers = parseInt(value.verse, 10);
@@ -31,7 +31,7 @@ const Surah1 = (value) => {
 
 
           return <div className='ayatAndNumber'>
-                    <div className='ayat'>{value.text}</div>
+                    <div className='ayat'><p>{value.text}</p></div>
                     <div className='ayatNo'><p>{converted}</p></div>
                 </div>
           })}
@@ -40,4 +40,4 @@ const Surah1 = (value) => {
   )
 }
 
-export default Surah1;
+export default Surah2;
