@@ -7,22 +7,20 @@ import State from './States/state';
 import MainPage from './ConditionalRendering/index';
 import EventHandle from './EventHandling/EventHandle';
 import Form from './Form/Form';
+import Parent from './ChildToParentData/Parent';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 const LearningReact = () => {
 
+  
+
   return (
 
     <div className='Not'>
-      <Form/>
-      
-   
-      
-      
-
-        
-      
-      
+      <Router>
+      <Parent />
+      </Router>
     </div>
   )
 }
