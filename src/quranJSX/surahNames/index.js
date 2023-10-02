@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import SurahNameJSON from '../../quranJSON/surahNames/surahNameArUrEn.json'
 import '../../fonts/QuranSurah2-7Bov4.ttf';
+import { Link } from 'react-router-dom';
 
 const SurahNames = () => {
 
@@ -37,13 +38,13 @@ const SurahNames = () => {
         const converted = convert(surahNumbers);
 
         return <a className='LinkOfSurahNameAndNumber' href="">
-                  
                   <div className='insideofSurahNumber'>
                     <p>{converted}</p>
                   </div>
                   <div className='surahName'>
                     <p>سورة {value.name}</p>
                   </div>
+          <Link to="/Surah1" className='navs'>Surah Fatiha</Link>
               
           </a>
         

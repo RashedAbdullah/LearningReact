@@ -8,21 +8,28 @@ import MainPage from './ConditionalRendering/index';
 import EventHandle from './EventHandling/EventHandle';
 import Form from './Form/Form';
 import Parent from './ChildToParentData/Parent';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import FamilyPrint from './Props2/FamilyPrint';
+import SurahNames from './quranJSX/surahNames/index';
+import Surah1 from './quranJSX/allAyats/surah1';
+import Navigator from './Navigator/Navigator';
 
 
-const LearningReact = () => {
+const App = () => {
 
   
 
   return (
-
-    <div className='Not'>
-      <Router>
-      <Parent />
-      </Router>
-    </div>
+  <Router>
+    <Navigator/>
+    <Routes>
+      <Route path="/" element={<FamilyPrint/>}/>
+      <Route path="/SurahNames" element={<SurahNames />}/>
+      <Route path="/Surah1" element={<Surah1 />}/>
+    </Routes>
+  </Router>
+    
   )
 }
 
-export default LearningReact;
+export default App;
