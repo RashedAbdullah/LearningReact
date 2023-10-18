@@ -22,10 +22,11 @@ const App = () => {
   return (
   <Router>
     <Navigator/>
+        <Form/>
     <Routes>
       <Route path="/" element={<FamilyPrint/>}/>
       <Route path="/SurahNames" element={<SurahNames />}/>
-      <Route path="/Surah1" element={<Surah1 />}/>
+      <Route path="/Surah1" element={<Surah1 />} />
     </Routes>
   </Router>
     

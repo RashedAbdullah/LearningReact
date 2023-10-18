@@ -34,7 +34,7 @@ const Form = () => {
         e.preventDefault(); //it's good
     }
 
-  return (
+  
     <div>
 
         <form action="" onSubmit={ChackSubmit}>
@@ -62,7 +62,7 @@ const Form = () => {
 
         </form>
     </div>
-  )
+ 
 }
 
 export default Form;
