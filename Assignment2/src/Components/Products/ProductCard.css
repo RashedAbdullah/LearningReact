@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.products > div {
+    height: 300px;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+
+.products > div > img {
+    height: 200px;
+}
+
+@media (max-width: 860px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 660px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 660px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}

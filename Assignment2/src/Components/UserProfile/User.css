@@ -1,0 +1,32 @@
+.userStyle {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 860px) {
+    .userStyle {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 660px) {
+    .userStyle {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 445px) {
+    .userStyle {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.userStyle > div {
+    text-align: center;
+    margin-top: 20px;
+}

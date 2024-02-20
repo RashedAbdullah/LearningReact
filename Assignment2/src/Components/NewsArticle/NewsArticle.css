@@ -1,0 +1,44 @@
+.articleMainDiv {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    
+}
+
+@media (max-width: 850px) {
+    .articleMainDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }    
+}
+@media (max-width: 600px) {
+    .articleMainDiv {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }    
+}
+
+.articleMainDiv > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+}
+
+.articleMainDiv > div > h4 {
+    font-size: 25px;
+    color: #140404;
+}
+
+.articleMainDiv > div > h5 {
+    margin-top: 5px;
+    font: 20px;
+    color: rgb(67, 67, 67);
+}
+
+.articleMainDiv > div > p {
+    margin-top: 10px;
+    font-size: 18px;
+}

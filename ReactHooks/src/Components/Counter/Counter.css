@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(103, 239, 239);
+    color: rgb(0, 57, 57);
+}
+button {
+    padding: 5px 50px;
+    background-color: rgb(0, 43, 43);
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 50px;
+}

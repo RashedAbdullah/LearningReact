@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Navigations */
+.msnger {
+    display: flex;
+    width: 98vw;
+}
+
+.navigations {
+    width: 4vw;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.357);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+}
+
+.navigations li {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+
+
+/* Chats */
+.chatsBox {
+    width: 28vw;
+    padding: 15px;
+}
+
+.chatsTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ChatInputBox {
+    background-color: rgba(0, 0, 0, 0.184);
+    padding: 6px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChatInputBox .inputBoxChat {
+    width: 90%;
+    height: 25px;
+}
+.inputBoxChat input {
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 2px;
+}
+
+.searchIconChat {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-top: 4px;
+}
+
+.chatPeople {
+    margin-top: 10px;
+    height: 81vh;
+    overflow: scroll;
+}
+
+.singleProfileDiv {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.singleProfileDiv:hover {
+    background-color: rgba(0, 0, 0, 0.081);
+}
+
+.singleProfileDiv img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.singleProfileDiv p {
+    font-size: 15px;
+    color: gray;
+}
+
+
+/* Single Profile */
+.chatProfile {
+    width: 69vw;
+}
+
+.profileTitle {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.profileTitle > div, .profileTitle > ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profileTitle > div, .profileTitle > ul > li {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.profileTitle img {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chatProfileAndText {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chatProfileAndText > div {
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.28);
+    border-radius: 12px;
+}
+
+.chatProfileAndText > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dateBox {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.431);
+    padding: 10px 0;
+}
+
+.chatmySelf {
+    display: flex;
+    justify-content: end;
+    padding: 0 30px;
+}
+
+.chatmySelf > p {
+    padding: 5px 15px;
+    border-radius: 12px;
+    background-color: rgb(10,124,255);
+    color: white;
+    font-size: 16px;
+}
+
+.cahtFooter ul {
+    position: relative;
+    top: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cahtFooter ul > li {
+    cursor: pointer;
+}
+
+.cahtFooter ul > li > input {
+    width: 52vw;
+    height: 33px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.079);
+    border-radius: 10px;
+    padding: 0 10px;
+
+}
+
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+
+/* Facebook log in pages */
+.fbLoginPage {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.049);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+}
+
+.fbLoginTitles {
+    width: 60%;
+}
+
+.fbLogInForm  {
+    width: 40%;
+}
+
+.fbLoginTitles {
+    padding: 20px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fbLoginTitles h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(32, 117, 255);
+}
+
+.fbLoginTitles h3 {
+    font-size: 28px;
+}
+
+.fbLogInForm > .mainForm {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 65vh;
+    width: 30vw;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.mainForm input {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.286);
+}
+
+.mainForm form button {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 15px;
+    background-color: rgb(32, 117, 255);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mainForm div p {
+    margin: 40px;
+    text-align: center;
+}
+.mainForm div p a {
+    color: rgb(32, 117, 255);
+}
+
+.mainForm > div > button {
+    width: 100%;
+    margin: 30px 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(66,183,42);
+    border-radius: 8px;
+    color: white;
+}
+
+.underForm {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.underForm span {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* Sign up */
+.fbSignup {
+    background-color: rgba(0, 0, 0, 0.514);
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpBox {
+    background-color: white;
+    height: 90vh;
+    width: 32vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.titleAndCrose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.signUpBox > p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.614);
+    margin: 5px 0;
+}
+
+.nameAndSurname {
+    margin: 10px;
+}
+
+.nameAndSurname input {
+    font-size: 18px;
+    width: 47%;
+    padding: 3px;
+    margin: 5px;
+    outline: none;
+}
+
+.mainOrNumberInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainOrNumberInput input{
+    width: 93%;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+}
+
+.birthBox > p {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 13px;
+}
+
+.birthBox select {
+    width: 29%;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 13px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+}
+
+.gendertext {
+    font-size: 14px;
+    margin: 10px 0 0 13px;
+}
+
+.genderBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.genderBox > div {
+    width: 29%;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    font-size: 18px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.genderBox label {
+    cursor: pointer;
+}
+
+.signupTexts {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.signUpButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpButton button {
+    padding: 7px 60px;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(66,183,42);
+    color: white;
+    cursor: pointer;
+}
+
+.removeSignUpBox {
+    cursor: pointer;
+}
+
+.signUpDisplayNone {
+    display: none;
+}
+
+.signUpDisplayBlock {
+    display: block;
+    position: fixed;
+}

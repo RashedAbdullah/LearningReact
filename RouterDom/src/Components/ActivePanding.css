@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    gap: 20px;
+}
+li {
+    list-style-type: none;
+}
+.active {
+    background-color: rgb(0, 44, 44);
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.pending {
+    background-color: salmon;
+    color: aqua;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* body {
+    background-color: #1d2126;
+} */

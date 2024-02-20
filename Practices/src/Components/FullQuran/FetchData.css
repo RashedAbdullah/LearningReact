@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+.quran {
+    font-family: 'Amiri Quran', serif;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quran > div>  div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quran p {
+    font-size: 20px;
+}
+
+.quran h2 {
+    text-align: center;
+}

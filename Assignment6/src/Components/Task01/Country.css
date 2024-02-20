@@ -1,0 +1,45 @@
+.insideCountry {
+    box-sizing: border-box;
+    width: 30vw;
+    padding: 30px;
+    margin: 10px;
+    color: rgb(0, 39, 39);
+    border-radius: 10px;
+    border: 1px solid rgb(0, 41, 41);
+}
+.insideCountry > div {
+    width: 80%;
+}
+.flagdiv > .flagimg {
+    width: 100%;
+}
+
+.insideCountry .flagdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.insideCountry .armDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.armDiv > .armimg {
+    width:10%;
+}
+
+.insideCountry > h3 {
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+.insideCountry p {
+    font-size: 1.2vw;
+    margin-top: 5px;
+}
