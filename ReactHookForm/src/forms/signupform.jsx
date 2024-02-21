@@ -1,6 +1,7 @@
-import { useFieldArray, useForm } from "react-hook-form";
+import { Controller, useFieldArray, useForm } from "react-hook-form";
 import Field from "../components/field";
 import FieldSet from "../components/fieldset";
+import NumberInput from "../components/numberInput";
 
 const SignUpForm = () => {
   const {
@@ -10,12 +11,10 @@ const SignUpForm = () => {
     formState: { errors },
   } = useForm();
 
-  const { fields, append, prepend, remove, swap, move, insert } = useFieldArray(
-    {
-      control,
-      name: "socials",
-    }
-  );
+  const { fields, append, remove } = useFieldArray({
+    control,
+    name: "socials",
+  });
 
   const handleSubmitForm = (formData) => {
     console.log(formData);
@@ -75,6 +74,44 @@ const SignUpForm = () => {
               type="password"
               name="password"
               placeholder="Enter Password"
+              className={`block border ${
+                errors.password ? "border-red-400" : "border-white"
+              } w-[100%] p-1 rounded outline-none`}
+            />
+          </Field>
+
+          <Field label="age" error={errors.age}>
+            <Controller
+              name="age"
+              control={control}
+              defaultValue={1}
+              // eslint-disable-next-line no-unused-vars
+              render={({ field: { ref, ...field } }) => (
+                <NumberInput
+                  id="age"
+                  className={`block border ${
+                    errors.age ? "border-red-400" : "border-white"
+                  } w-[100%] p-1 rounded outline-none`}
+                  {...field}
+                />
+              )}
+              rules={{
+                max: {
+                  value: 100,
+                  message: "Age must be between 0 to 100",
+                },
+              }}
+            />
+          </Field>
+
+          <Field label="Picture" error={errors.file}>
+            <input
+              {...register("file", {
+                required: "Picture is required",
+              })}
+              id="file"
+              type="file"
+              name="file"
               className={`block border ${
                 errors.password ? "border-red-400" : "border-white"
               } w-[100%] p-1 rounded outline-none`}
