@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 9",
+      "description": "An Apple brand mobile phone from Apple",
+      "price": 454,
+      "rating": 4.5,
+      "thumbnail": "https://mobilebazar.com.bd/assets/img/Apple-iPhone-9-Picture-White-550x550.webp"
+    },
+    {
+      "id": "2",
+      "title": "Samsung Galaxy S21",
+      "description": "A flagship smartphone from Samsung with advanced features",
+      "price": 799,
+      "rating": 4.8,
+      "thumbnail": "https://f9w2q4k2.rocketcdn.me/wp-content/uploads/2021/03/Samsung-Galaxy-S21-Plus-1-1.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Google Pixel 6",
+      "description": "The latest Pixel phone with exceptional camera capabilities",
+      "price": 699,
+      "rating": 4.7,
+      "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/3774-67323.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Sony Xperia 5 III",
+      "description": "A powerful and compact phone from Sony for multimedia enthusiasts",
+      "price": 849,
+      "rating": 4.6,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Sony-Xperia-5-III-Black.jpg"
+    },
+    {
+      "id": "5",
+      "title": "OnePlus 9 Pro",
+      "description": "A high-performance flagship killer with a smooth user experience",
+      "price": 899,
+      "rating": 4.9,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/10/OnePlus-9-Pro-Pine-Green.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Xiaomi Mi 11",
+      "description": "A budget-friendly smartphone with top-notch features from Xiaomi",
+      "price": 499,
+      "rating": 4.4,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Xiaomi-Mi-11-Blue.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Huawei P40",
+      "description": "A stylish phone with impressive camera capabilities from Huawei",
+      "price": 699,
+      "rating": 4.3,
+      "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/HUAWEI-P40-Pro-5G-Black-6721.jpg"
+    },
+    {
+      "id": "8",
+      "title": "LG Velvet",
+      "description": "A sleek and unique design phone with a dual-screen option from LG",
+      "price": 599,
+      "rating": 4.2,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/04/LG-Velvet-Black.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Bluetooth Earbuds",
+      "description": "Wireless earbuds with noise cancellation feature",
+      "price": 89,
+      "rating": 4.3,
+      "thumbnail": "https://www.ryanscomputers.com/storage/products/main/edifier-tws-x2-black-bluetooth-11639895448.webp"
+    },
+    {
+      "id": "10",
+      "title": "Smartwatch X",
+      "description": "A feature-rich smartwatch with health and fitness tracking",
+      "price": 199,
+      "rating": 4.2,
+      "thumbnail": "https://www.gadstyle.com/wp-content/uploads/2020/07/dt-no-i-dt-x-rectangular-full-display-smartwatch-5.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Laptop XYZ",
+      "description": "A high-performance laptop for professional use",
+      "price": 1299,
+      "rating": 4.6,
+      "thumbnail": "https://5.imimg.com/data5/SELLER/Default/2022/9/PJ/NL/MJ/160633650/laptop-500x500.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Google Pixel 7",
+      "description": "The latest Pixel device with an impressive camera",
+      "price": 699,
+      "rating": 4.7,
+      "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/Pixel-7-Obsidian-1130.jpg"
+    },
+    {
+      "id": "13",
+      "title": "iPhone 10",
+      "description": "An Apple brand mobile phone from Apple 10",
+      "price": 464,
+      "rating": 4.5,
+      "thumbnail": "https://i5.walmartimages.com/asr/a9c38a2b-b747-4cae-888c-fa3f63d6c103.de28dad8e02561edcc05b9a3a0c53403.jpeg"
+    },
+    {
+      "id": "14",
+      "title": "iPhone 11",
+      "description": "An Apple brand mobile phone from Apple 11",
+      "price": 414,
+      "rating": 4.5,
+      "thumbnail": "https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-Pro.jpg"
+    },
+    {
+      "id": "15",
+      "title": "iPhone 12",
+      "description": "An Apple brand mobile phone from Apple 12",
+      "price": 484,
+      "rating": 4.5,
+      "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/1533-48820.jpg"
+    }
+  ]
+}
