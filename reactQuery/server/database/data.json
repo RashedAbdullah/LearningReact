@@ -119,6 +119,38 @@
       "price": 484,
       "rating": 4.5,
       "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/1533-48820.jpg"
+    },
+    {
+      "id": "16",
+      "title": "Samsung A51",
+      "description": "This is samsung A51 Phone",
+      "price": 270000,
+      "rating": 4,
+      "thumbnail": "https://www.zdnet.com/a/img/2020/09/29/d424c7b4-6344-4d20-b0e2-0ff7ddfbd14e/samsung-galaxy-a51-on-vodafone-header.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Sumsung A52",
+      "description": "This is samsung a52 from korea",
+      "price": 30000,
+      "rating": 4,
+      "thumbnail": "https://api.motionview.com.bd/storage/images/products/profile/165035776743.Samsung%20Galaxy%20A52%20(8128%20GB)-blue.webp"
+    },
+    {
+      "id": "c76ab4af-16b2-46a3-bf04-a08612f21cf0",
+      "title": "Samsung A53",
+      "description": "This is Samsung A53",
+      "price": 32434,
+      "rating": 4,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2021/08/Samsung-Galaxy-A53-5G-Black.jpg"
+    },
+    {
+      "id": "25bf8cd5-8b96-4c3a-9c9e-4f856503c1e3",
+      "title": "",
+      "description": "",
+      "price": 0,
+      "rating": 4,
+      "thumbnail": ""
     }
   ]
 }
