@@ -1,22 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "iPhone 9",
-      "description": "An Apple brand mobile phone from Apple",
-      "price": 454,
-      "rating": 4.5,
-      "thumbnail": "https://mobilebazar.com.bd/assets/img/Apple-iPhone-9-Picture-White-550x550.webp"
-    },
-    {
-      "id": "2",
-      "title": "Samsung Galaxy S21",
-      "description": "A flagship smartphone from Samsung with advanced features",
-      "price": 799,
-      "rating": 4.8,
-      "thumbnail": "https://f9w2q4k2.rocketcdn.me/wp-content/uploads/2021/03/Samsung-Galaxy-S21-Plus-1-1.jpg"
-    },
-    {
       "id": "3",
       "title": "Google Pixel 6",
       "description": "The latest Pixel phone with exceptional camera capabilities",
@@ -121,14 +105,6 @@
       "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/1533-48820.jpg"
     },
     {
-      "id": "16",
-      "title": "Samsung A51",
-      "description": "This is samsung A51 Phone",
-      "price": 270000,
-      "rating": 4,
-      "thumbnail": "https://www.zdnet.com/a/img/2020/09/29/d424c7b4-6344-4d20-b0e2-0ff7ddfbd14e/samsung-galaxy-a51-on-vodafone-header.jpg"
-    },
-    {
       "id": "17",
       "title": "Sumsung A52",
       "description": "This is samsung a52 from korea",
@@ -143,14 +119,45 @@
       "price": 32434,
       "rating": 4,
       "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2021/08/Samsung-Galaxy-A53-5G-Black.jpg"
+    },{
+      "id": "18",
+      "title": "Google Pixel 6",
+      "description": "The latest Pixel phone with exceptional camera capabilities",
+      "price": 699,
+      "rating": 4.7,
+      "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/3774-67323.jpg"
     },
     {
-      "id": "25bf8cd5-8b96-4c3a-9c9e-4f856503c1e3",
-      "title": "",
-      "description": "",
-      "price": 0,
-      "rating": 4,
-      "thumbnail": ""
+      "id": "19",
+      "title": "Sony Xperia 5 III",
+      "description": "A powerful and compact phone from Sony for multimedia enthusiasts",
+      "price": 849,
+      "rating": 4.6,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Sony-Xperia-5-III-Black.jpg"
+    },
+    {
+      "id": "20",
+      "title": "OnePlus 9 Pro",
+      "description": "A high-performance flagship killer with a smooth user experience",
+      "price": 899,
+      "rating": 4.9,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/10/OnePlus-9-Pro-Pine-Green.jpg"
+    },
+    {
+      "id": "21",
+      "title": "Xiaomi Mi 11",
+      "description": "A budget-friendly smartphone with top-notch features from Xiaomi",
+      "price": 499,
+      "rating": 4.4,
+      "thumbnail": "https://www.mobiledokan.co/wp-content/uploads/2020/09/Xiaomi-Mi-11-Blue.jpg"
+    },
+    {
+      "id": "22",
+      "title": "Huawei P40",
+      "description": "A stylish phone with impressive camera capabilities from Huawei",
+      "price": 699,
+      "rating": 4.3,
+      "thumbnail": "https://adminapi.applegadgetsbd.com/storage/media/large/HUAWEI-P40-Pro-5G-Black-6721.jpg"
     }
   ]
 }

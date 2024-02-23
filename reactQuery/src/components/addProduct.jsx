@@ -1,3 +1,4 @@
+import { Box, Button, TextField } from "@mui/material";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
@@ -21,6 +22,7 @@ const AddProduct = () => {
     },
   });
   const handleAddForm = (e) => {
+    console.log(e);
     e.preventDefault();
     const statesWithId = { ...states, id: crypto.randomUUID().toString() };
     mutation.mutate(statesWithId);
@@ -39,71 +41,75 @@ const AddProduct = () => {
   if (mutation.isLoading) return <h2>Submitting data...</h2>;
   if (mutation.isError) return <h2>An error is occured {mutation.error}</h2>;
   return (
-    <div className="mb-3 ml-5 p-4 w-1/4 h-1/2 fixed left-0">
-      <h2 className="text-3xl p-2 m-2 text-center">Add A Product</h2>
-      <form onSubmit={handleAddForm} className="border p-3 rounded text-lg">
-        <div>
-          <label htmlFor="title">
-            Title:
-            <input
-              type="text"
-              id="title"
-              name="title"
-              className=" outline-none border p-1 mb-3 w-full"
-              placeholder="Enter Title"
-              value={states.title}
-              onChange={handleChangeState}
-            />
-          </label>
+    <div className="mb-3 ml-5 p-4 w-1/4 h-1/2 fixed left-0 flex flex-col">
+      <h2 className="text-3xl p-2 m-2 text-center">Add Product</h2>
+      <Box
+        component="form"
+        onSubmit={handleAddForm}
+        className="border p-3 rounded text-lg"
+      >
+        <div className="mt-5">
+          <TextField
+            variant="filled"
+            label="Title"
+            type="text"
+            id="title"
+            name="title"
+            className="w-full"
+            placeholder="Enter Title"
+            value={states.title}
+            onChange={handleChangeState}
+          />
         </div>
-        <div>
-          <label htmlFor="description">
-            Description:
-            <textarea
-              type="text"
-              id="description"
-              name="description"
-              className=" outline-none border p-1 mb-3 w-full"
-              placeholder="Enter Description"
-              value={states.description}
-              onChange={handleChangeState}
-            />
-          </label>
+        <div className="mt-5">
+          <TextField
+            variant="filled"
+            label="Description"
+            type="text"
+            id="description"
+            name="description"
+            className="w-full"
+            placeholder="Enter Description"
+            value={states.description}
+            onChange={handleChangeState}
+          />
         </div>
-        <div>
-          <label htmlFor="price">
-            Price:
-            <input
-              type="number"
-              id="price"
-              name="price"
-              className=" outline-none border p-1 mb-3 w-full"
-              placeholder="Enter Price"
-              value={states.price}
-              onChange={handleChangeState}
-            />
-          </label>
+        <div className="mt-5">
+          <TextField
+            variant="filled"
+            label="Price"
+            type="number"
+            id="price"
+            name="price"
+            className=" outline-none border p-1 mb-3 w-full"
+            placeholder="Enter Price"
+            value={states.price}
+            onChange={handleChangeState}
+          />
         </div>
-        <div>
-          <label htmlFor="thumbnail">
-            URL:
-            <input
-              type="text"
-              id="thumbnail"
-              name="thumbnail"
-              className=" outline-none border p-1 mb-3 w-full"
-              placeholder="Enter URL"
-              value={states.thumbnail}
-              onChange={handleChangeState}
-            />
-          </label>
+        <div className="mt-5">
+          <TextField
+            variant="filled"
+            label="URL"
+            type="text"
+            id="thumbnail"
+            name="thumbnail"
+            className=" outline-none border p-1 mb-3 w-full"
+            placeholder="Enter URL"
+            value={states.thumbnail}
+            onChange={handleChangeState}
+          />
         </div>
-        <div>
-          <button className=" mt-5 text-green-500 border py-1 px-4 rounded bg-gray-100 w-full">
+        <div className="mt-5">
+          <Button
+            variant="contained"
+            className="w-full"
+            onClick={handleAddForm}
+          >
             Add
-          </button>
+          </Button>
         </div>
-      </form>
+      </Box>
     </div>
   );
 };
