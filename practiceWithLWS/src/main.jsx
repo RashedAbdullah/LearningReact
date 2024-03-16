@@ -33,14 +33,5 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-
-    <App>
-      <p className="sm:bg-red-500 bg-green-500 text-white p-3 text-center">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum a nisi,
-        reiciendis ad obcaecati illum autem dolore, sunt ratione, totam
-        dignissimos voluptatem itaque necessitatibus! Esse laudantium asperiores
-        ducimus illo unde.
-      </p>
-    </App>
   </React.StrictMode>
 );
