@@ -29,10 +29,15 @@ export default function Gallery() {
         onClick={() => setIsShowDetails(!isShowDetails)}
         className="bg-gray-500 text-white p-2 rounded m-2"
       >
-        Details {!isShowDetails ? "🔽": "🔼"}
+        Details {!isShowDetails ? "🔽" : "🔼"}
       </button>
       {isShowDetails && <p>{sculpture.description}</p>}
       <img src={sculpture.url} alt={sculpture.alt} />
+      <br />
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+      expedita iusto nisi eaque quasi placeat dignissimos, voluptatum quibusdam
+      ex, accusantium odit officiis eos odio. Quae consequatur omnis itaque quos
+      repudiandae?
     </>
   );
 }
